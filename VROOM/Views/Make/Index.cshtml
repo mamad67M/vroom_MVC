@@ -1,0 +1,52 @@
+﻿@model IEnumerable<VROOM.Models.Make>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br/> <br />
+
+
+      <div class="row">
+          <div class="col-6">
+              <h2 class="text-info"> Make of vehicule </h2>
+          </div>
+          <div class="col-6 text-right" >
+              <a class="btn btn-info " asp-action="Create"> Add New Make </a>
+          </div>
+
+          <br/>
+
+          <div class="col-12">
+              <table class="table table-striped border">
+                  <tr class="table-info">
+                      <th>
+                          @Html.DisplayNameFor(m => m.Name)
+                      </th>
+                      <th></th>
+                  </tr>
+                  @foreach (var item in Model)
+                  {
+              <tr>
+                  <td>
+                      @Html.DisplayFor(m => item.Name)
+                  </td>
+                  <td class="text-right">
+                      <div class="btn-group" rold="group">
+                         
+                          <form method="post" action="Edit">
+                              <input  type="submit" class="btn btn-primary rounded-0" asp-action="Edit" asp-route-id="@item.Id" value="Edit" />
+                          </form>
+                          <form method="post" action="Delete">
+                              <input onclick="if(!confirm('are u sur? u vant to delete this make? ')){return false}" type="submit" class="btn btn-danger rounded-0" asp-action="Delete" asp-route-id="@item.Id" value="Delete" />
+                          </form>
+
+                      </div>
+                  </td>
+
+              </tr>
+                  }
+
+              </table>
+          </div>
+      </div>
