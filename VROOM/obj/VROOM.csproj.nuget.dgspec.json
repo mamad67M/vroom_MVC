@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mamdi\\source\\repos\\VROOM\\VROOM\\VROOM.csproj": {}
+    "C:\\Users\\mamdi\\source\\repos\\Vroom_MVC\\VROOM\\VROOM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mamdi\\source\\repos\\VROOM\\VROOM\\VROOM.csproj": {
+    "C:\\Users\\mamdi\\source\\repos\\Vroom_MVC\\VROOM\\VROOM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mamdi\\source\\repos\\VROOM\\VROOM\\VROOM.csproj",
+        "projectUniqueName": "C:\\Users\\mamdi\\source\\repos\\Vroom_MVC\\VROOM\\VROOM.csproj",
         "projectName": "VROOM",
-        "projectPath": "C:\\Users\\mamdi\\source\\repos\\VROOM\\VROOM\\VROOM.csproj",
+        "projectPath": "C:\\Users\\mamdi\\source\\repos\\Vroom_MVC\\VROOM\\VROOM.csproj",
         "packagesPath": "C:\\Users\\mamdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mamdi\\source\\repos\\VROOM\\VROOM\\obj\\",
+        "outputPath": "C:\\Users\\mamdi\\source\\repos\\Vroom_MVC\\VROOM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mamdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
